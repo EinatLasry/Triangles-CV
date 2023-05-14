@@ -23,5 +23,6 @@ Discussion: All triangles are correct. Many triangles are missing, because of th
 Winsize=30,30 Threshold=2 Canny:100-200 Length_side=sqrt(68)
 ![image](https://github.com/EinatLasry/Triangles-CV/assets/82314695/a20b16f6-735c-4a82-adbb-d7331624a544)
 
+
 Discussion: Some of the triangles were identified, but one of the cartoon animals was identified as a triangle. Sometimes there was a strong pointing outside the triangle and there the strongest center of mass point in the window was determined. In addition, there are triangles that overlap each other. Possible solutions: stronger cleaning of the image, increasing the defined window and threshold, but then the number of detected triangles will be reduced as we saw earlier.
 
