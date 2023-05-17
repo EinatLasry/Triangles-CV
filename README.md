@@ -14,7 +14,7 @@ In the next step, we deleted points that did not pass the threshold of votes. We
 For each point we identified as the center of mass of the triangle, we kept the angle of the sides from which the votes came. Note that all sides have the same angle, if we apply modulo 120.
 Using the angle, we reproduced the vertices of the triangle, and thus drew the triangle.
 
-# Examples and explanations of incorrect results:
+# Examples and explanations of the results:
 # image001:
 Winsize=30,30 Threshold=27  Canny:100-200 Length_side=26
 
