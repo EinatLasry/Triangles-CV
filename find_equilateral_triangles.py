@@ -279,3 +279,11 @@ def dy(distance, m):
 
 def dx(distance, m):
     return sqrt(distance ** 2 / (m ** 2 + 1))
+
+if __name__ == "__main__":
+    
+    # image1 = cv2.imread('Q1/triangles_2/image008.jpg', 0)
+    # x1, y1 = (1425, 361)
+    # x2, y2 = (2097, 1021)
+    # distance = sqrt((x1 - x2)**2 + (y1 - y2)**2)
+    # find_equilateral_triangles(image1, distance)
